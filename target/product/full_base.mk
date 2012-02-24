@@ -24,13 +24,13 @@ PRODUCT_PACKAGES := \
     libdrmframework \
     libdrmframework_jni \
     libfwdlockengine \
-    OpenWnn \
-    PinyinIME \
-    libWnnEngDic \
-    libWnnJpnDic \
-    libwnndict \
     VideoEditor \
     WAPPushManager
+
+PRODUCT_PACKAGES += \
+    libvideoeditor_jni \
+    libvideoeditorplayer \
+    libvideoeditor_core
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
